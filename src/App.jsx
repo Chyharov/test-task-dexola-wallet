@@ -1,11 +1,13 @@
 import './App.css'
+import Header from './components/Header/Header';
+import InputForm from './components/inputForm/InputForm';
 
 function App() {
 
-
   return (
     <>
-      <h1>Hello</h1>
+      <Header />
+      <InputForm />
     </>
   )
 }

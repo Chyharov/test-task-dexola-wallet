@@ -1,0 +1,26 @@
+@import '../../sass/utils/mixin';
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.inputForm {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.inputBtn {
+    border-radius: 7px;
+}
